@@ -1,0 +1,38 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/**********************  HEADER *************************/
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header-title {
+  font-size: 30px;
+  color: black;
+}
+
+header a {
+  color: #4133329c;
+  margin-left: 24px;
+}
+
+a :first-of-type {
+  color: black;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #4133329c;
+}
+
+header a:visited {
+  color: #4133329c;
+}
+
+#menu-icon {
+  width: 32px;
+}
